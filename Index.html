@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>QR Code Generator | CodingNepal</title>
+  <link rel="stylesheet" href="style.css"> <!-- If you have a separate CSS file -->
+</head>
+<body>
+
+<header>
+  <h1>QR Code Generator</h1>
+</header>
+
+<div class="wrapper">
+  <div class="form">
+    <input type="text" placeholder="Paste the URL/Text here">
+    <button class="generate-btn">Generate QR Code</button> <!-- Added class "generate-btn" -->
+  </div>
+  <div class="qr-code">
+    <img decoding="async" src="" alt="qr-code">
+    <button class="download-btn">Download QR Code</button>
+  </div>
+</div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.19.2/axios.min.js"></script>
+<script src="script.js"></script> 
+</body>
+</html>
