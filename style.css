@@ -134,7 +134,7 @@ header p {
     width: 160px;
   }
 }
-/* Add CSS for the download button */
+
 .download-btn {
   background-color: #44e14e;
   color: #fff;
@@ -142,10 +142,9 @@ header p {
   border-radius: 5px;
   padding: 10px 20px;
   cursor: pointer;
-  margin-top: 10px; /* Adjust the margin as needed */
+  margin-top: 10px; 
 }
 
-/* Align the download button after the generated QR button */
 .qr-code {
   display: flex;
   flex-direction: column;
